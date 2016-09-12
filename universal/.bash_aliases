@@ -32,7 +32,7 @@ alias racket='racket -I typed/racket'
 alias neofetch='neofetch --colors 1 1 1 1 --ascii_colors 6 1'
 
 # run previous command as root
-alias fuck='sudo $(history -p \!\!)'
+alias fuck='sudo $(history -p \!\!) '
 
 # nvim
 alias vim='nvim'
