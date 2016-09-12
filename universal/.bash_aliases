@@ -37,6 +37,9 @@ alias fuck='sudo $(history -p \!\!)'
 # nvim
 alias vim='nvim'
 
+# rsync options
+alias rsync='rsync -aAXvzHE'
+
 # clone terminal
 alias ct='termite -d $PWD &> /dev/null & disown'
 
