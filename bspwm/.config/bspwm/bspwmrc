@@ -22,7 +22,7 @@ fi
 # don't use that stupid cross pointer
 xsetroot -cursor_name left_ptr &
 
-# swap caps and escape
+# make caps behave as another escape
 setxkbmap -option caps:escape &
 
 # no bell
