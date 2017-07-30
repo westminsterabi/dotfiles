@@ -47,10 +47,7 @@ alias xclip='xclip -selection clipboard'
 alias yolo='pacaur --noconfirm --noedit'
 
 # set X background
-function setbg() {
-	[[ $# -eq 0 ]] && : || cp $1 ~/.wallpaper
-	feh --no-fehbg --bg-fill ~/.wallpaper
-}
+alias setbg='feh --bg-fill $1'
 
 # mkdir and cd into it
 function mkcd() {
