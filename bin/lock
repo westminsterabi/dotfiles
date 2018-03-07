@@ -7,4 +7,5 @@ maim $TMP_BG
 convert $TMP_BG -scale 10% -scale 1000% -fill black -colorize 50% $TMP_BG
 convert $TMP_BG $ICON -gravity center -composite -matte $TMP_BG
 
+setxkbmap -layout us,us
 i3lock -i $TMP_BG

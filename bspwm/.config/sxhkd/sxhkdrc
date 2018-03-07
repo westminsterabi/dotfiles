@@ -89,6 +89,17 @@ super + w
   termite -e weechat
 
 ##################################################
+# languages
+##################################################
+# english
+super + alt + e
+  setxkbmap -layout us,us
+
+# spanish
+super + alt + s
+  setxkbmap -layout es,es
+
+##################################################
 # laptop function keys
 ##################################################
 
