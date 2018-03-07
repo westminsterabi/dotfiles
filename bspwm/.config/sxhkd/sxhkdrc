@@ -94,10 +94,12 @@ super + w
 # english
 super + alt + e
   setxkbmap -layout us,us
+  setxkbmap -option caps:escape
 
 # spanish
 super + alt + s
   setxkbmap -layout es,es
+  setxkbmap -option caps:escape
 
 ##################################################
 # laptop function keys
