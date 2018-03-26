@@ -79,5 +79,5 @@ end
 
 # make CLI rg match fzf
 function rg
-  command rg --hidden --smart-case $argv
+  command rg --hidden --smart-case --glob !.git $argv
 end
