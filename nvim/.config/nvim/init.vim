@@ -8,6 +8,7 @@ Plug 'rakr/vim-one'             " one dark
 
 " environment
 Plug 'tpope/vim-sensible'                                       " sensible defaults
+Plug 'jiangmiao/auto-pairs'                                     " auto delimiter pairing
 Plug 'vim-scripts/a.vim', {'for': 'c'}                          " switch between .c and .h
 Plug 'tpope/vim-abolish'                                        " crazy text manipulation
 Plug 'ap/vim-buftabline'                                        " buffer bar
