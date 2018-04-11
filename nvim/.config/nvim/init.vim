@@ -7,15 +7,11 @@ Plug 'arcticicestudio/nord-vim' " nord
 " environment
 Plug 'tpope/vim-sensible'                                       " sensible defaults
 Plug 'jiangmiao/auto-pairs'                                     " auto delimiter pairing
-Plug 'vim-scripts/a.vim', {'for': 'c'}                          " switch between .c and .h
-Plug 'tpope/vim-abolish'                                        " crazy text manipulation
 Plug 'ap/vim-buftabline'                                        " buffer bar
 Plug 'tpope/vim-commentary'                                     " better commenting
 Plug 'junegunn/vim-easy-align'                                  " easy alignment
-Plug 'easymotion/vim-easymotion'                                " easymotion!
 Plug 'junegunn/fzf', {'dir': '~/.fzf', 'do': './install --all'} " fzf
 Plug 'junegunn/fzf.vim'                                         " fzf
-Plug 'tpope/vim-fugitive'                                       " git integration
 Plug 'mhinz/vim-signify'                                        " git status in gutter
 Plug 'lervag/vimtex'                                            " LaTeX
 Plug 'itchyny/lightline.vim'                                    " lightline
