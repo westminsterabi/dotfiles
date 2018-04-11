@@ -4,23 +4,29 @@ call plug#begin()
 " colorscheme
 Plug 'arcticicestudio/nord-vim' " nord
 
-" environment
-Plug 'tpope/vim-sensible'                                       " sensible defaults
-Plug 'jiangmiao/auto-pairs'                                     " auto delimiter pairing
-Plug 'ap/vim-buftabline'                                        " buffer bar
-Plug 'tpope/vim-commentary'                                     " better commenting
-Plug 'junegunn/vim-easy-align'                                  " easy alignment
-Plug 'junegunn/fzf', {'dir': '~/.fzf', 'do': './install --all'} " fzf
-Plug 'junegunn/fzf.vim'                                         " fzf
-Plug 'mhinz/vim-signify'                                        " git status in gutter
-Plug 'lervag/vimtex'                                            " LaTeX
-Plug 'itchyny/lightline.vim'                                    " lightline
-Plug 'sheerun/vim-polyglot'                                     " language support
-Plug 'tpope/vim-repeat'                                         " make . work for everything
-Plug 'vim-scripts/replacewithregister'                          " replace with register
-Plug 'tpope/vim-surround'                                       " delimiter manipulation
-Plug 'wincent/terminus'                                         " auto read, bracketed paste
-Plug 'vim-scripts/visualrepeat'                                 " make . work for in visual mode
+" sensible defaults
+Plug 'tpope/vim-sensible'              " sensible defaults
+Plug 'tpope/vim-repeat'                " make . work for everything
+Plug 'vim-scripts/replacewithregister' " replace with register
+Plug 'wincent/terminus'                " auto read, bracketed paste
+Plug 'vim-scripts/visualrepeat'        " make . work for in visual mode
+
+" cosmetic enhancements
+Plug 'ap/vim-buftabline'     " buffer bar
+Plug 'mhinz/vim-signify'     " git status in gutter
+Plug 'itchyny/lightline.vim' " lightline
+
+" language support
+Plug 'sheerun/vim-polyglot' " syntax plugins for most languages
+Plug 'lervag/vimtex'        " LaTeX
+
+" new features
+Plug 'jiangmiao/auto-pairs'                                       " auto delimiter pairing
+Plug 'tpope/vim-commentary'                                       " better commenting
+Plug 'junegunn/vim-easy-align'                                    " easy alignment
+Plug 'junegunn/fzf', {'dir' : '~/.fzf', 'do' : './install --all'} " fzf
+Plug 'junegunn/fzf.vim'                                           " fzf
+Plug 'tpope/vim-surround'                                         " delimiter manipulation
 
 " completion
 if has('python3')
