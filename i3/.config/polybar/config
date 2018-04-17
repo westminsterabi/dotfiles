@@ -36,7 +36,7 @@ font-1 = "Font Awesome:size=12;3"
 font-2 = "Material Icons:size=12;5"
 
 ; modules list
-modules-left = bspwm
+modules-left = i3
 modules-center = date
 modules-right = xbacklight volume battery powermenu
 
@@ -46,19 +46,19 @@ tray-padding = 0
 tray-maxsize = 36
 
 ; don't let the bar be drawn over other windows
-wm-restack = bspwm
+; wm-restack = i3
 
 ; underline size
 line-size = 3
 
-[module/bspwm]
-type = internal/bspwm
-format = <label-state> <label-mode>
+[module/i3]
+type = internal/xworkspaces
+format = <label-state>
 
-label-focused = %name%
-label-focused-background = ${colors.background-alt}
-label-focused-underline= ${colors.foreground}
-label-focused-padding = 1
+label-active = %name%
+label-active-background = ${colors.background-alt}
+label-active-underline= ${colors.foreground}
+label-active-padding = 1
 
 label-occupied = %name%
 label-occupied-foreground = ${colors.foreground}

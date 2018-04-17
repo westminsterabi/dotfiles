@@ -97,11 +97,24 @@
     };
   };
 
+  # add i3 support to polybar
+  nixpkgs.config = {
+    packageOverrides = pkgs: rec {
+      polybar = pkgs.polybar.override {
+        i3Support = true;
+      };
+    };
+  };
+
   services.compton = {
     enable = true;
     fade = true;
     fadeSteps = [ "0.03" "0.03" ];
     fadeDelta = 6;
+    # shadow.enable = true;
+    activeOpacity = "1.0";
+    inactiveOpacity = "0.85";
+    vSync = "opengl";
   };
 
   services.redshift = {
