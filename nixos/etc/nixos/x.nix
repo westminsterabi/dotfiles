@@ -83,10 +83,11 @@
     };
 
     windowManager = {
-      bspwm = {
+      i3 = {
         enable = true;
+        package = pkgs.i3-gaps;
       };
-      default = "bspwm";
+      default = "i3";
     };
 
     # disable default xterm desktop manager - otherwise it tries to start
