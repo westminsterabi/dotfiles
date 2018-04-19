@@ -7,7 +7,6 @@
     arandr
     arc-theme
     arc-icon-theme
-    dmenu2
     feh
     ffmpeg
     gnome3.dconf
@@ -22,6 +21,7 @@
     pamixer
     pavucontrol
     polybar
+    rofi
     slop
     xrq
     xsel
@@ -39,7 +39,7 @@
     mpv
     ranger
     slack
-    spotify
+    # spotify
     terminator
     texlive.combined.scheme-full
     zathura
@@ -101,7 +101,7 @@
   nixpkgs.config = {
     packageOverrides = pkgs: rec {
       polybar = pkgs.polybar.override {
-        i3Support = true;
+        i3GapsSupport = true;
       };
     };
   };
