@@ -114,7 +114,7 @@
     # shadow.enable = true;
     activeOpacity = "1.0";
     inactiveOpacity = "0.85";
-    vSync = "opengl";
+    backend = "glx";
   };
 
   services.redshift = {
