@@ -99,6 +99,7 @@ for_window [class="Pavucontrol"] floating enable
 # for_window [class="Thunar"] floating enable
 for_window [class="Slack"] move container to workspace 0
 for_window [class="Spotify"] move container to workspace 0
+for_window [class="Keybase"] move container to workspace 0
 
 # keyboard layout switching
 bindsym $mod+Mod1+e exec setxkbmap -layout us -option caps:escape
