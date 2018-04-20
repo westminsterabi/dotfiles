@@ -110,3 +110,4 @@ gaps inner 18
 focus_wrapping no
 
 exec --no-startup-id ~/.config/i3/i3rc
+exec_always --no-startup-id ~/dotfiles/bin/launch_polybar

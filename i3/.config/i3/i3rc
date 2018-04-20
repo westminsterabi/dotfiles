@@ -12,7 +12,6 @@ xset -b &
 xset s off -dpms &
 
 # autostart apps
-polybar main &
 nm-applet &
 dropbox &
 NIX_SKIP_KEYBASE_CHECKS=1 keybase-gui
