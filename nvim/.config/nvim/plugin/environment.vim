@@ -12,7 +12,6 @@ set laststatus=2
 
 " auto reload changed files
 set autoread
-set checktime
 
 " mouse compatibility
 set mouse=a
