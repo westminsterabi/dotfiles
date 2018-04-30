@@ -81,7 +81,6 @@ super + r
 super + n
   nautilus
 
-# dmenu
 super + space
   ~/dotfiles/bin/menu bottom
 
