@@ -46,10 +46,6 @@ super + shift + space
 super + {plus,underscore}
   bspc node @parent -r {+,-}10
 
-# equalize/balance split ratios
-super + shift + {e,b}
-  bspc node @/ -{E,B}
-
 ##################################################
 # application shortcuts
 ##################################################
@@ -75,9 +71,6 @@ super + Print
 super + shift + Print
   ~/dotfiles/bin/screenshot select
 
-super + r
-  termite -e ranger
-
 super + n
   nautilus
 
@@ -86,9 +79,6 @@ super + space
 
 super + s
   ~/dotfiles/bin/hidpi spotify
-
-super + w
-  termite -e weechat
 
 ##################################################
 # languages
