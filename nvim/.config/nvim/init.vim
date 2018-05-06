@@ -63,7 +63,7 @@ autocmd BufNewFile,BufRead *.sml call SetSMLOptions()
 function SetSMLOptions()
   setlocal filetype=sml
   setlocal textwidth&
-  setlocal comment commentstring=(*\ %s\ *)
+  setlocal commentstring=(*\ %s\ *)
 endfunction
 
 " yaml
