@@ -40,6 +40,11 @@ function mkdir
   command mkdir -p $argv
 end
 
+# xclip to clipboard by default
+function xclip
+  command xclip -selection clipboard $argv
+end
+
 # typed racket
 function racket
   command racket -I typed/racket $argv
